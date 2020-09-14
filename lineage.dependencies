@@ -1,6 +1,3 @@
 [
- {
-   "repository": "android_kernel_fairphone_sdm632",
-   "target_path": "device/fairphone/sdm632"
- }
+
 ]
