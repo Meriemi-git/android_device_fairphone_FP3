@@ -27,6 +27,20 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vendor
 
+AB_OTA_PARTITIONS += \
+    aboot \
+    cmnlib \
+    cmnlib64 \
+    devcfg \
+    dsp \
+    keymaster \
+    lksecapp \
+    modem \
+    mdtp \
+    rpm \
+    sbl1 \
+    tz
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
