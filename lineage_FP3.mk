@@ -36,10 +36,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-uniscope
 
 PRODUCT_SYSTEM_DEVICE := FP3
 
-# userdebug
-PRODUCT_BUILD_PROP_OVERRIDES += \
-        TARGET_DEVICE=FP3 \
-        PRIVATE_BUILD_DESC="FP3-user 11 8901.4.A.0013.4-gms-c1b5afb7 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Fairphone/FP3/FP3:11/8901.4.A.0013.4/gms-c1b5afb7:user/release-keys
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.build.stock_fingerprint="Fairphone/FP3/FP3:10/8901.3.A.0134.20211116/gms-12ee4a80:user/release-keys"
