@@ -36,15 +36,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.bluetooth.audio</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IBluetoothAudioProvidersFactory</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport>hwbinder</transport>
         <version>2.4</version>
@@ -434,6 +425,7 @@
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.am</name>
+        <name>vendor.qti.hardware.btconfigstore</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>

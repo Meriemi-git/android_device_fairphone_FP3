@@ -315,6 +315,7 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(AUDIO_HAL_PATH)/configs/common/overlay
 
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
     $(LOCAL_PATH)/audio/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
@@ -490,7 +491,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor \
     audio.bluetooth.default \
-    android.hardware.bluetooth.audio@2.0-impl:32 \
+    android.hardware.bluetooth.audio-impl \
     android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0.vendor \
     com.qualcomm.qti.bluetooth_audio@1.0 \
