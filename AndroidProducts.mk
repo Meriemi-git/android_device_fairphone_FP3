@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_FP3.mk
+    $(LOCAL_DIR)/spark_FP3.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_FP3-user \
-    lineage_FP3-userdebug \
-    lineage_FP3-eng
+    spark_FP3-user \
+    spark_FP3-userdebug \
+    spark_FP3-eng
