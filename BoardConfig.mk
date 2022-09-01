@@ -27,20 +27,6 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vendor
 
-AB_OTA_PARTITIONS += \
-    aboot \
-    cmnlib \
-    cmnlib64 \
-    devcfg \
-    dsp \
-    keymaster \
-    lksecapp \
-    modem \
-    mdtp \
-    rpm \
-    sbl1 \
-    tz
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -90,7 +76,7 @@ BOARD_RAMDISK_OFFSET     := 0x01000000
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_USES_UNCOMPRESSED_KERNEL := false
-TARGET_KERNEL_CONFIG := lineageos_FP3_defconfig
+TARGET_KERNEL_CONFIG := fairphone_defconfig
 TARGET_KERNEL_SOURCE := kernel/fairphone/sdm632
 TARGET_USES_UNCOMPRESSED_KERNEL := false
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom msm_rtb.filter=0x237
