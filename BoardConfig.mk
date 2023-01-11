@@ -91,7 +91,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
 # Use clang proton
 TARGET_KERNEL_CLANG_VERSION := proton-clang
