@@ -38,7 +38,7 @@ PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SDM450
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-voltage
 
 
 # AAPT
@@ -432,8 +432,8 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+    vendor.voltage.livedisplay@2.0-service-sdm \
+    vendor.voltage.livedisplay@2.0-service-sysfs
 
 
 #
@@ -687,7 +687,7 @@ PRODUCT_BOOT_JARS += \
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.voltage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \

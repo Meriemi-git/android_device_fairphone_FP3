@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_FP3.mk
+    $(LOCAL_DIR)/voltage_FP3.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_FP3-user \
-    lineage_FP3-userdebug \
-    lineage_FP3-eng
+    voltage_FP3-user \
+    voltage_FP3-userdebug \
+    voltage_FP3-eng
