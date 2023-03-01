@@ -513,10 +513,23 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
-    android.hardware.nfc@1.2.vendor \
     com.android.nfc_extras \
-    libchrome.vendor \
+    com.nxp.nfc.nq \
+    com.nxp.nfc.nq.xml \
+    libnqnfc-nci \
+    libnqnfc_nci_jni \
+    nfc_nci.nqx.default.hw \
     nqnfcinfo \
+    vendor.nxp.hardware.nfc@2.0-service \
+    vendor.nxp.hardware.nfc@2.0.vendor \
+    vendor.nxp.hardware.nfc@1.0.vendor \
+    vendor.nxp.hardware.nfc@1.1.vendor \
+    vendor.nxp.nxpnfclegacy@1.0.vendor \
+    libchrome.vendor \
+    android.hardware.nfc@1.2 \
+    android.hardware.nfc@1.2.vendor:64 \
+    android.hardware.nfc@1.0 \
+    android.hardware.nfc@1.0.vendor:64 
 
 # NFC Config
 PRODUCT_COPY_FILES += \
