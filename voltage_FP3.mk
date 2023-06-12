@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common voltage stuff
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common iode stuff
+# $(call inherit-product, vendor/extra/product.mk)
+# $(call inherit-product, vendor/extra/product_certificates.mk)
 
 # Inherit from FP3 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
