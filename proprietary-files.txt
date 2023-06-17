@@ -143,7 +143,7 @@ system_ext/etc/permissions/UimGba.xml
 system_ext/etc/permissions/UimGbaManager.xml
 system_ext/etc/permissions/UimService.xml
 system_ext/etc/permissions/audiosphere.xml
-system_ext/etc/permissions/com.nxp.nfc.nq.xml
+# system_ext/etc/permissions/com.nxp.nfc.nq.xml
 system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/com.qti.location.sdk.xml
 system_ext/etc/permissions/com.qti.media.secureprocessor.xml

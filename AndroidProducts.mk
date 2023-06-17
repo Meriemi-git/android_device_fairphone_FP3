@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2018-2020 The arrowOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_FP3.mk
+    $(LOCAL_DIR)/arrow_FP3.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_FP3-user \
-    lineage_FP3-userdebug \
-    lineage_FP3-eng
+    arrow_FP3-user \
+    arrow_FP3-userdebug \
+    arrow_FP3-eng

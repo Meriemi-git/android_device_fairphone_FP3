@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2019-2022 The Arrow Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@ PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SDM450
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-arrow
 
 
 # AAPT
@@ -430,12 +430,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.msm8953
 
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
-
 #
 # media profiles and media codecs xmls
 #
@@ -533,7 +527,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Perf
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
 
 
@@ -685,10 +678,6 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
@@ -730,9 +719,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_wlan_dictionary.dat
 
-# Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+
 
 
 # Enable zygote critical window.

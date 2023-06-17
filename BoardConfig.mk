@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2019-2022 The Arrow Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -204,8 +204,8 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/fairphone/sdm632
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_LLVM_BINUTILS := false
-TARGET_KERNEL_CLANG_VERSION := r416183b
-TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
+TARGET_KERNEL_CLANG_VERSION := proton-clang
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
 TARGET_USES_UNCOMPRESSED_KERNEL := false
 
 # Declare boot header
