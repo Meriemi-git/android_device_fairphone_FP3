@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Open Source Project
+# Copyright (C) 2020 The sparkOS Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common spark stuff
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Inherit from FP3 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,7 +29,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Fairphone
 PRODUCT_DEVICE := FP3
 PRODUCT_MANUFACTURER := Fairphone
-PRODUCT_NAME := lineage_FP3
+PRODUCT_NAME := spark_FP3
 PRODUCT_MODEL := FP3
 
 PRODUCT_GMS_CLIENTID_BASE := android-uniscope

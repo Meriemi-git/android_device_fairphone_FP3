@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2019-2022 The sparkOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -199,7 +199,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := \
     DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
     MKDTIMG=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/libufdt/mkdtimg
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := lineageos_FP3_defconfig
+TARGET_KERNEL_CONFIG := fairphone_FP3_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/fairphone/sdm632
 TARGET_KERNEL_VERSION := 4.9

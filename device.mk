@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019-2022 The LineageOS Project
+# Copyright (C) 2019-2022 The sparkOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,8 +37,7 @@ PRODUCT_VENDOR_PROPERTIES += ro.soc.model=SDM450
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-spark
 
 
 # AAPT
@@ -430,12 +429,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.msm8953
 
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
-
 #
 # media profiles and media codecs xmls
 #
@@ -683,11 +676,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
-
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
