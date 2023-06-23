@@ -506,6 +506,13 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     android.hardware.nfc@1.2.vendor \
+    android.hardware.nfc@1.2-service \
+    vendor.nxp.hardware.nfc@1.0.vendor \
+    vendor.nxp.hardware.nfc@1.1.vendor \
+    vendor.nxp.hardware.nfc@2.0-service \
+    vendor.nxp.hardware.nfc@2.0.vendor \
+    vendor.nxp.hardware.nfc@2.0-service.vendor \
+    vendor.nxp.nxpnfclegacy@1.0.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
     nqnfcinfo \

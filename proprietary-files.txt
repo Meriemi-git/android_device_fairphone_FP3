@@ -143,7 +143,6 @@ system_ext/etc/permissions/UimGba.xml
 system_ext/etc/permissions/UimGbaManager.xml
 system_ext/etc/permissions/UimService.xml
 system_ext/etc/permissions/audiosphere.xml
-# system_ext/etc/permissions/com.nxp.nfc.nq.xml
 system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/com.qti.location.sdk.xml
 system_ext/etc/permissions/com.qti.media.secureprocessor.xml
@@ -301,10 +300,6 @@ system_ext/lib/vendor.display.color@1.0.so
 system_ext/lib/vendor.display.color@1.1.so
 system_ext/lib/vendor.display.color@1.2.so
 system_ext/lib/vendor.display.postproc@1.0.so
-system_ext/lib/vendor.nxp.hardware.nfc@1.0.so
-system_ext/lib/vendor.nxp.hardware.nfc@1.1.so
-system_ext/lib/vendor.nxp.hardware.nfc@2.0.so
-system_ext/lib/vendor.nxp.nxpnfclegacy@1.0.so
 system_ext/lib/vendor.qti.data.factory@1.0.so
 system_ext/lib/vendor.qti.data.factory@2.0.so
 system_ext/lib/vendor.qti.data.factory@2.1.so
@@ -467,10 +462,6 @@ system_ext/lib64/vendor.display.color@1.0.so
 system_ext/lib64/vendor.display.color@1.1.so
 system_ext/lib64/vendor.display.color@1.2.so
 system_ext/lib64/vendor.display.postproc@1.0.so
-system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so
-system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so
-system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so
-system_ext/lib64/vendor.nxp.nxpnfclegacy@1.0.so
 system_ext/lib64/vendor.qti.data.factory@1.0.so
 system_ext/lib64/vendor.qti.data.factory@2.0.so
 system_ext/lib64/vendor.qti.data.factory@2.1.so
@@ -607,7 +598,6 @@ vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/qcrild
 vendor/bin/hw/vendor.display.color@1.0-service
-vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
@@ -1494,10 +1484,6 @@ vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
 vendor/lib/vendor.display.color@1.2.so
 vendor/lib/vendor.display.postproc@1.0.so
-vendor/lib/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib/vendor.nxp.hardware.nfc@2.0.so
-vendor/lib/vendor.nxp.nxpnfclegacy@1.0.so
 vendor/lib/vendor.qti.data.factory@2.0.so
 vendor/lib/vendor.qti.data.factory@2.1.so
 vendor/lib/vendor.qti.data.factory@2.2.so
@@ -1886,10 +1872,6 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.color@1.2.so
 vendor/lib64/vendor.display.postproc@1.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
-vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
 vendor/lib64/vendor.qti.data.factory@2.2.so
