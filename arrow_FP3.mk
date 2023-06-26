@@ -46,5 +46,8 @@ BUILD_FINGERPRINT := Fairphone/FP3/FP3:11/8901.4.A.0021.0/gms-0b368514:user/rele
 
 ifeq (,$(INCLUDES_EXTRA_APPS))
 PRODUCT_PACKAGES += \
-   Bitwarden
+   Etar \
+   Bitwarden \
+   Davx \
+   Nextcloud
 endif
