@@ -51,6 +51,8 @@ PRODUCT_PACKAGES += \
 
 ifeq (,$(INCLUDES_EXTRA_APPS))
 PRODUCT_PACKAGES += \
+   F-Droid \
+   AuroraStore \
    Etar \
    Bitwarden \
    Davx \
