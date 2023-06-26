@@ -54,5 +54,5 @@ PRODUCT_PACKAGES += \
    Etar \
    Bitwarden \
    Davx \
-   Nextcloud
+   Firefox
 endif
