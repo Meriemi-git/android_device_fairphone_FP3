@@ -44,6 +44,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Fairphone/FP3/FP3:11/8901.4.A.0021.0/gms-0b368514:user/release-keys
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+
 ifeq (,$(INCLUDES_EXTRA_APPS))
 PRODUCT_PACKAGES += \
    Etar \
