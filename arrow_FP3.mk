@@ -46,7 +46,7 @@ BUILD_FINGERPRINT := Fairphone/FP3/FP3:11/8901.4.A.0021.0/gms-0b368514:user/rele
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePackages
+    remove_packages
 
 
 ifeq (,$(INCLUDES_EXTRA_APPS))
@@ -56,5 +56,10 @@ PRODUCT_PACKAGES += \
    Etar \
    Bitwarden \
    Davx \
-   Firefox
+   Firefox \
+   ProtonMail \
+   FairEmail \
+   Aves \
+   OrganicMaps \
+   QKMS
 endif
