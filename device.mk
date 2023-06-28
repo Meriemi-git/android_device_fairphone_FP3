@@ -732,3 +732,6 @@ PRODUCT_COPY_FILES += \
 # Enable zygote critical window.
 PRODUCT_VENDOR_OVERRIDES += \
     zygote.critical_window.minute=10
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=log
