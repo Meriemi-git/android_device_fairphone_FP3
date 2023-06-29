@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common arrow stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+# Add prebuilt packages
+$(call inherit-product, vendor/extra/product.mk)
+
 # Inherit from FP3 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
@@ -43,3 +46,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Fairphone/FP3/FP3:11/8901.4.A.0021.0/gms-0b368514:user/release-keys
+
+ifeq (,$(CLEANUP_UNWANTED_APPS))
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+endif

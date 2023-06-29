@@ -16,7 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_FP3.mk
-
+    
 COMMON_LUNCH_CHOICES := \
     arrow_FP3-user \
     arrow_FP3-userdebug \

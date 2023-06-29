@@ -20,6 +20,11 @@ DEVICE_PATH := device/fairphone/FP3
 # Switch to dedicated msm8953 HAL
 TARGET_ENFORCES_QSSI := true
 
+# Include extras apps from prebuilts : 
+INCLUDES_EXTRA_APPS := true
+
+# Remove unwanted packages
+CLEANUP_UNWANTED_APPS:= true
 
 # A/B updater
 AB_OTA_UPDATER := true
